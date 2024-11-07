@@ -1,3 +1,5 @@
+@use "../../styles/variables";
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -8,7 +10,7 @@
 
     &--primary {
         color: white;
-        background-color: #4f2ac3;
+        background-color: variables.$purple;
     }
 
     @media screen and (max-width: 640px) {
